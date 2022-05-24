@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+#minio 配置
+minio:
+  endpoint: http://127.0.0.1:9000 #MinIO服务所在地址
+  bucketName: test #存储桶名称
+  accessKey: I4j4AHRIyxAHVpRk #访问的key
+  secretKey: LxhraiHc3DgLg2tHnlke8C4M7eShG224 #访问的秘钥
